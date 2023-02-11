@@ -9,7 +9,7 @@
     background-color: rgba(0, 0, 0, 0.733);
 }
 body{
-    background-image: url('imgs/library.png');
+    background-image: url(library.png);
     background-color: black;
     background-repeat: no-repeat;
     display:flex;
