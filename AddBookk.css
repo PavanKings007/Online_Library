@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#divupbody{
+    width: 100vw;
+    height: 258vh;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+body{
+    background-image: url('imgs/library.png');
+    background-color: black;
+    background-repeat: no-repeat;
+    display:flex;
+    background-position:initial;
+}
+
+
+form{
+display: contents;}
+#formtab{
+    background-color: rgba(0, 0, 0, 0.758);
+    border-radius: 2vw;
+    width: 60vw;
+    height: 68vh;
+    margin: 7vw -82vw -50vw 22vw;
+    position:absolute;
+}
+#checkboxinput{
+    background-color: transparent;
+    position: absolute;
+    color: aliceblue;
+    font-size: 1.8vw;
+    margin: 1vw -17vw 0vw 2vw ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0vw -5vw 2vw 0vw;
+    text-decoration-line: underline;
+}
+#booktitle {
+    float: right;
+    margin: 4vw 26vw -35vw 0vw;
+    color: aliceblue;
+    font-size: 1.9vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+#authername{
+    float: right;
+    margin: 4vw 4vw -35vw 0vw;
+    color: aliceblue;
+    font-size: 1.9vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+#booktitleinput{
+    float: right;
+    font-size: medium;
+    width: 16vw;
+    height: 1.7vw;
+    margin: 6vw 24vw -35vw 0vw;
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    background-color: rgba(245, 245, 245, 0.223);
+    color: white;
+}
+#authernameinput{
+    float: right;
+    font-size: medium;
+    width: 16vw;
+    height: 1.7vw;
+    margin: 6vw 3vw -35vw 0vw;
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    background-color: rgba(245, 245, 245, 0.223);
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: rgba(255, 253, 253, 0.59);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
+#uploadbook{
+    display: flex;
+    color: aliceblue;
+    margin: 0vw 0vw -13vw 5vw;
+    font-size: 1.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:underline whitesmoke;
+}
+#uploadboxdiv{
+    float: right;
+    width: 24vw;
+    height: 14vh;
+    border: 1px solid white;
+    border-radius: 1vw;
+    margin: 15vw 10vw -35vw 0vw;
+    background-color: rgba(245, 245, 245, 0.223);
+
+}
+input[type="file"]{
+    width: 15vw;
+    height: 3vh;
+    float: right;
+    color: white;
+    margin: 15vw 3vw -17vw 0vw;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+#buttonbox{
+    float: right;
+    margin: 28vw 18vw -30vw 0vw;
+    width: 10vw;
+    height: 3vh;
+    background-color: rgb(42, 40, 40);
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#buttonbox:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.598);
+    border: 0.3vw solid rgba(0, 0, 0, 0.716);
+    color: black;
+    cursor: pointer;
+}
+#home{
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    margin: 2vw auto -5vw 2vw ;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.71);
+    border:0.3vw solid whitesmoke ;
+    border-radius: 0.5vw;
+  }
+  #home:hover{
+      background-color: rgba(0, 0, 0, 0.641);
+      border-radius: 0.5vw;
+      
+  }
+  #showlibrery{
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-size:2vw;
+    width: 16vw;
+    height: 4.5vh;
+    color: white;
+    border: 0.3vw solid white;
+    background-color: rgba(0, 0, 0, 0.641);
+    border-radius:2vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    margin: 2vw 5vw 0 0;
+  }
+  #tabletag{
+    position: absolute;
+    margin: 51vw -100vw 0vw 0vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    width: 100%;
+  }
+  table{
+    border: 3px solid rgb(253, 253, 253);
+    width: 100%;
+    border-collapse: collapse;
+    /* margin: 6vw 0vw -9vw 0vw; */
+}
+th,td{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+  text-align: center;
+  color: azure;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    background-color: darkslategrey;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Librery Management System</title>
+    <link rel="icon" href="imgs/favicon.ico"></link>
+    <link rel="stylesheet" href="AddBookk.css"></link>
+    
+                        
+
+</head>
+<div id="divupbody">
+<body>
+        <div id="navbar">
+            <a href="LibreryManegmentSystem.html" id="home">Home</a>
+             <div id="formtab">
+                <form id="formtag" >
+                    <div id="checkboxinput">
+                        <h3>catogere/Genres</h3>
+                    <input type="checkbox" class="checkedtag" value="Novel">Novel</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Fictional">Fictional</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Sci-Fi">Sci-Fi</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Horror">Horror</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Drama">Drama</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="History">History</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="BioGraphy">BioGraphy</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Adventures">Adventures</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Thriller">Thriller</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Crime">Crime</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Mystry">Mystry</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Mythology">Mythology</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Travel">Travel</input>
+                    <br>
+                    <input type="checkbox" class="checkedtag" value="Children">Children</input>
+                    </div>
+                        <label id="booktitle">Enter Book Title</label>
+                        <label id="authername">Enter Auther Name</label>
+                        <br>
+                        <input type="text" id="booktitleinput" placeholder="Eneter Book Title"></input>
+                        <input type="text" id="authernameinput" placeholder="Enter Auther Name"></input>
+                        <br>
+                        <div id="uploadboxdiv">
+                            <label id="uploadbook">Upload the Book</label>
+                        <input type="file" id="uploadbookinput" ></input>
+                    </div>
+                        <button id="buttonbox" onclick="AddDataToTable(event)">Add</button>
+                </form>
+            </div> 
+            <div id="tabletag">
+                <center>
+                    <table id="mytable">
+                       <tr>
+                       <th>S.No</th>
+                       <th>Book title</th>
+                       <th>Auther</th>
+                       <th>Genres</th>
+                       </tr> 
+                   </table>
+               </center>
+            </div>
+        </div>
+    <script src="javaScript file/lib.js"></script>
+</body> 
+</div>
+</html>
