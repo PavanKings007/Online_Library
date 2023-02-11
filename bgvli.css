@@ -4,7 +4,7 @@
 }
 
 #myimg{
-   background-image: url('imgs/library.png');
+   background-image: url(library.png);
    background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;
@@ -163,7 +163,7 @@ option{
     }
   
   .front, .back {
-    background-image: url('imgs/frontpage.jpg');
+    background-image: url(frontpage.jpg);
     background-size:contain;
     background-repeat: no-repeat;
   }
