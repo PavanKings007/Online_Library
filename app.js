@@ -30,4 +30,5 @@ function AddDataToTable(){
   //printing "." at the end of the multi selected checkbox values............
   cell4.innerHTML += arr[arr.length-1]+".";
   document.getElementById("formtag").reset();
+  console.log("hello");
   }
